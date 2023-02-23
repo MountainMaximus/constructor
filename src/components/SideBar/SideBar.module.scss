@@ -1,0 +1,10 @@
+@import "../../scss/var.scss";
+.root {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: $sidebar-width;
+  max-width: 95vw;
+  overflow-x: hidden;
+  overflow-y: auto;
+}

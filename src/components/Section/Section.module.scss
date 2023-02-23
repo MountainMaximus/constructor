@@ -1,0 +1,13 @@
+@import "../../scss/var.scss";
+
+.section {
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  h2 {
+    margin: 10px 0;
+    text-align: left;
+    color: $primary-text;
+    font-size: 1.5rem;
+  }
+}

@@ -1,26 +1,27 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Routes, Route } from "react-router-dom";
+import React from "react";
+import { Wrapper } from "./layout/Wrapper";
+import { HomePage } from "./pages/HomePage";
+import { fetchData } from "./redux/frame/asyncAction";
+import { useAppDispatch } from "./redux/store";
+import { Preloader } from "./layout/Preloader";
 
-function App() {
+export function App() {
+  const dispatch = useAppDispatch();
+  const [loadActive, setLoadActive] = React.useState(true);
+  React.useEffect(() => {
+    dispatch(fetchData());
+    setLoadActive(false);
+  }, [dispatch]);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Routes>
+      <Route
+        path="/"
+        element={loadActive ? <Preloader mask={true} /> : <Wrapper />}
+      >
+        <Route path="/" element={<HomePage />} />
+      </Route>
+    </Routes>
   );
 }
-
-export default App;

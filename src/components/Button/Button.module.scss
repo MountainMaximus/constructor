@@ -1,0 +1,21 @@
+@import "../../scss/var.scss";
+
+.root {
+  display: inline-block;
+  vertical-align: top;
+  padding: 0.5em 0.8em;
+  margin: 0.3rem;
+  line-height: 1;
+  color: $primary;
+  cursor: pointer;
+  border: none;
+
+  border-radius: 10px;
+
+  transition: all 0.7s ease-in-out;
+  background-color: $accent;
+  &:hover {
+    background-color: $primary;
+    color: $accent;
+  }
+}
