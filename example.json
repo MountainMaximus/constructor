@@ -48,6 +48,18 @@
         "items": ["/banner.png", "/banner.png", "/banner.png"],
         "title": "Совершенно новый IPhone 13",
         "button": { "text": "Подробнее", "modalID": "test" }
+      },
+      {
+        "ID": "testSlider1",
+        "items": ["/banner.png", "/banner.png", "/banner.png"],
+        "title": "Совершенно новый IPhone 13",
+        "button": { "text": "Подробнее", "modalID": "test1" }
+      },
+      {
+        "ID": "testSlider2",
+        "items": ["/banner.png", "/banner.png", "/banner.png"],
+        "title": "Совершенно новый IPhone 13",
+        "button": { "text": "Подробнее", "modalID": "test2" }
       }
     ]
   },
@@ -56,6 +68,13 @@
     "slider": [
       {
         "ID": "testSlider",
+        "dotPosition": "left",
+        "arrowPosition": "inText",
+        "arrowVerticalPosition": "bottom",
+        "textPosition": "absoluteLeft"
+      },
+      {
+        "ID": "testSlider1",
         "dotPosition": "left",
         "arrowPosition": "inText",
         "arrowVerticalPosition": "bottom",
