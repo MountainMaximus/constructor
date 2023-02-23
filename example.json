@@ -1,0 +1,66 @@
+{
+  "frame": {
+    "header": {
+      "left": [
+        {
+          "type": "text",
+          "title": "Акции",
+          "href": "#"
+        },
+        {
+          "type": "text",
+          "title": "Оплата и доставка",
+          "href": "#"
+        },
+        {
+          "type": "text",
+          "title": "Гарантия",
+          "href": "#"
+        },
+        {
+          "type": "text",
+          "title": "О компании",
+          "href": "#"
+        },
+        {
+          "type": "text",
+          "title": "Контакты",
+          "href": "#"
+        }
+      ],
+      "right": [
+        {
+          "type": "img",
+          "title": "phone",
+          "src": "/phone.png",
+          "style": { "display": "block", "width": 20 }
+        },
+        {
+          "type": "text",
+          "title": "+7 (997) 254-80-21",
+          "href": "tel:+79972548021"
+        }
+      ]
+    },
+    "slider": [
+      {
+        "ID": "testSlider",
+        "items": ["/banner.png", "/banner.png", "/banner.png"],
+        "title": "Совершенно новый IPhone 13",
+        "button": { "text": "Подробнее", "modalID": "test" }
+      }
+    ]
+  },
+  "modification": {
+    "header": { "position": "right" },
+    "slider": [
+      {
+        "ID": "testSlider",
+        "dotPosition": "left",
+        "arrowPosition": "inText",
+        "arrowVerticalPosition": "bottom",
+        "textPosition": "absoluteLeft"
+      }
+    ]
+  }
+}
