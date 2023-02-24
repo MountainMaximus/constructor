@@ -32,7 +32,7 @@
         {
           "type": "img",
           "title": "phone",
-          "src": "/constructor/phone.png",
+          "src": "phone.png",
           "style": { "display": "block", "width": 20 }
         },
         {
@@ -45,31 +45,19 @@
     "slider": [
       {
         "ID": "testSlider",
-        "items": [
-          "/constructor/banner.png",
-          "/constructor/banner.png",
-          "/constructor/banner.png"
-        ],
+        "items": ["banner.png", "banner.png", "banner.png"],
         "title": "Совершенно новый IPhone 13",
         "button": { "text": "Подробнее", "modalID": "test" }
       },
       {
         "ID": "testSlider1",
-        "items": [
-          "/constructor/banner.png",
-          "/constructor/banner.png",
-          "/constructor/banner.png"
-        ],
+        "items": ["banner.png", "banner.png", "banner.png"],
         "title": "Совершенно новый IPhone 13",
         "button": { "text": "Подробнее", "modalID": "test1" }
       },
       {
         "ID": "testSlider2",
-        "items": [
-          "/constructor/banner.png",
-          "/constructor/banner.png",
-          "/constructor/banner.png"
-        ],
+        "items": ["banner.png", "banner.png", "banner.png"],
         "title": "Совершенно новый IPhone 13",
         "button": { "text": "Подробнее", "modalID": "test2" }
       }
@@ -91,6 +79,17 @@
         "arrowPosition": "inText",
         "arrowVerticalPosition": "bottom",
         "textPosition": "absoluteLeft"
+      }
+    ],
+    "grid": [
+      {
+        "ID": "test",
+        "countRow": 4,
+        "countColumn": 4,
+        "gridArea": [
+          [1, 2],
+          [1, 1]
+        ]
       }
     ]
   }
