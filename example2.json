@@ -32,7 +32,7 @@
         {
           "type": "img",
           "title": "phone",
-          "src": "/phone.png",
+          "src": "/constructor/phone.png",
           "style": { "display": "block", "width": 20 }
         },
         {
@@ -45,19 +45,31 @@
     "slider": [
       {
         "ID": "testSlider",
-        "items": ["/banner.png", "/banner.png", "/banner.png"],
+        "items": [
+          "constructor/banner.png",
+          "/constructor/banner.png",
+          "/constructor/banner.png"
+        ],
         "title": "Совершенно новый IPhone 13",
         "button": { "text": "Подробнее", "modalID": "test" }
       },
       {
         "ID": "testSlider1",
-        "items": ["/banner.png", "/banner.png", "/banner.png"],
+        "items": [
+          "/constructor/banner.png",
+          "/constructor/banner.png",
+          "/constructor/banner.png"
+        ],
         "title": "Совершенно новый IPhone 13",
         "button": { "text": "Подробнее", "modalID": "test1" }
       },
       {
         "ID": "testSlider2",
-        "items": ["/banner.png", "/banner.png", "/banner.png"],
+        "items": [
+          "/constructor/banner.png",
+          "/constructor/banner.png",
+          "/constructor/banner.png"
+        ],
         "title": "Совершенно новый IPhone 13",
         "button": { "text": "Подробнее", "modalID": "test2" }
       }
