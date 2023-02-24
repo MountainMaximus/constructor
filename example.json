@@ -46,7 +46,7 @@
       {
         "ID": "testSlider",
         "items": [
-          "/constructor/banner.png",
+          "constructor/banner.png",
           "/constructor/banner.png",
           "/constructor/banner.png"
         ],
