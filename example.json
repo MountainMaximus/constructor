@@ -41,27 +41,7 @@
           "href": "tel:+79972548021"
         }
       ]
-    },
-    "slider": [
-      {
-        "ID": "testSlider",
-        "items": ["banner.png", "banner.png", "banner.png"],
-        "title": "Совершенно новый IPhone 13",
-        "button": { "text": "Подробнее", "modalID": "test" }
-      },
-      {
-        "ID": "testSlider1",
-        "items": ["banner.png", "banner.png", "banner.png"],
-        "title": "Совершенно новый IPhone 13",
-        "button": { "text": "Подробнее", "modalID": "test1" }
-      },
-      {
-        "ID": "testSlider2",
-        "items": ["banner.png", "banner.png", "banner.png"],
-        "title": "Совершенно новый IPhone 13",
-        "button": { "text": "Подробнее", "modalID": "test2" }
-      }
-    ]
+    }
   },
   "modification": {
     "header": { "position": "right" },
@@ -86,10 +66,7 @@
         "ID": "test",
         "countRow": 4,
         "countColumn": 4,
-        "gridArea": [
-          [1, 2],
-          [1, 1]
-        ]
+        "gridArea": [[1, 1]]
       }
     ]
   }

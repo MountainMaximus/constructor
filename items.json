@@ -1,0 +1,88 @@
+{
+  "items": [
+    {
+      "image": "products.svg",
+      "imagesArray": ["banner.png", "banner.png", "banner.png"],
+      "title": "Совершенно новый IPhone 13",
+      "button": { "text": "Подробнее", "modalID": "test" }
+    },
+    {
+      "image": "products.svg",
+      "imagesArray": ["banner.png", "banner.png", "banner.png"],
+      "title": "Совершенно новый IPhone 13",
+      "button": { "text": "Подробнее", "modalID": "test" }
+    },
+    {
+      "image": "products.svg",
+      "imagesArray": ["banner.png", "banner.png", "banner.png"],
+      "title": "Совершенно новый IPhone 13",
+      "button": { "text": "Подробнее", "modalID": "test" }
+    },
+    {
+      "image": "products.svg",
+      "imagesArray": ["banner.png", "banner.png", "banner.png"],
+      "title": "Совершенно новый IPhone 13",
+      "button": { "text": "Подробнее", "modalID": "test" }
+    },
+    {
+      "image": "products.svg",
+      "imagesArray": ["banner.png", "banner.png", "banner.png"],
+      "title": "Совершенно новый IPhone 13",
+      "button": { "text": "Подробнее", "modalID": "test" }
+    },
+    {
+      "image": "products.svg",
+      "imagesArray": ["banner.png", "banner.png", "banner.png"],
+      "title": "Совершенно новый IPhone 13",
+      "button": { "text": "Подробнее", "modalID": "test" }
+    },
+    {
+      "image": "products.svg",
+      "imagesArray": ["banner.png", "banner.png", "banner.png"],
+      "title": "Совершенно новый IPhone 13",
+      "button": { "text": "Подробнее", "modalID": "test" }
+    },
+    {
+      "image": "products.svg",
+      "imagesArray": ["banner.png", "banner.png", "banner.png"],
+      "title": "Совершенно новый IPhone 13",
+      "button": { "text": "Подробнее", "modalID": "test" }
+    },
+    {
+      "image": "products.svg",
+      "imagesArray": ["banner.png", "banner.png", "banner.png"],
+      "title": "Совершенно новый IPhone 13",
+      "button": { "text": "Подробнее", "modalID": "test" }
+    },
+    {
+      "image": "products.svg",
+      "imagesArray": ["banner.png", "banner.png", "banner.png"],
+      "title": "Совершенно новый IPhone 13",
+      "button": { "text": "Подробнее", "modalID": "test" }
+    },
+    {
+      "image": "products.svg",
+      "imagesArray": ["banner.png", "banner.png", "banner.png"],
+      "title": "Совершенно новый IPhone 13",
+      "button": { "text": "Подробнее", "modalID": "test" }
+    },
+    {
+      "image": "products.svg",
+      "imagesArray": ["banner.png", "banner.png", "banner.png"],
+      "title": "Совершенно новый IPhone 13",
+      "button": { "text": "Подробнее", "modalID": "test" }
+    },
+    {
+      "image": "products.svg",
+      "imagesArray": ["banner.png", "banner.png", "banner.png"],
+      "title": "Совершенно новый IPhone 13",
+      "button": { "text": "Подробнее", "modalID": "test" }
+    },
+    {
+      "image": "products.svg",
+      "imagesArray": ["banner.png", "banner.png", "banner.png"],
+      "title": "Совершенно новый IPhone 13",
+      "button": { "text": "Подробнее", "modalID": "test" }
+    }
+  ]
+}
